@@ -5,12 +5,15 @@ date: 2017-07-10 20:40:00
 categories: [Android]
 tags: [Android, ROM]
 ---
+最近查一个特定rom的bug，打算反编译rom查看rom中的源码，于是总结了下大致的方式。
+
+<!--more-->
 
 # 挂载镜像：
 OS X:
 
 > $ brew cask install osxfuse
-> $ brew install ext4fuse  
+> $ brew install ext4fuse
 > $ mkdir /mnt
 > $ ./simg2img system.img system.ext4.imt
 > $ ext4fuse system.ext4.img /mnt
