@@ -43,7 +43,7 @@ baseurl:
 
 excerpt_separator: <!--more-->
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # MarkDown解释器kramdown配置
 kramdown:

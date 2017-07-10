@@ -16,7 +16,7 @@ OS X:
 > $ brew install ext4fuse
 > $ mkdir /mnt
 > $ ./simg2img system.img system.ext4.imt
-> $ ext4fuse system.ext4.img /mnt
+> $ ext4fuse system.ext4.img /mnt  
 
 # oat转jar
 下面以MIUI 8.0.7.0 为例
